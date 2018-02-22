@@ -1,0 +1,23 @@
+{
+    "$origin": "www.google.com.",
+    "$ttl" : 3600,
+    "soa" : {
+        "mname" : "ns1.google.com.",
+        "rname" : "admin.google.com.",
+        "serial" : "{time}",
+        "refresh" : 3600,
+        "retry" : 600,
+        "expire" : 604800,
+        "minimun" : 86400
+    },
+    "ns":[
+        {"host": "ns1.google.com."},
+        {"host": "ns2.google.com."}
+    ],
+    "a":[
+        { "name" : "@", "ttl": 400 , "value" : "255.255.255.255"},
+        { "name" : "@", "ttl": 400 , "value" : "5.55.255.5"},
+        { "name" : "@", "ttl": 400 , "value" : "2.3.4.5"},
+        { "name" : "@", "ttl": 400 , "value" : "15.25.35.45"}
+    ]
+}
